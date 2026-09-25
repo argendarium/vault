@@ -52,6 +52,7 @@ case "$MODE" in
     ;;
   push)
     commit_local "sesion"
+    [ -z "$(git log @{u}.. --oneline 2>/dev/null)" ] && exit 0
     pull_remote || exit 0
     if git push -q >>"$LOG" 2>&1; then log "push ok"; else warn "push fallo, se reintentara en la proxima sesion"; fi
     ;;
