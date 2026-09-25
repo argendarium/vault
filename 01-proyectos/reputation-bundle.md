@@ -1,7 +1,7 @@
 ---
 tipo: proyecto
 estado: activo
-aliases: [reputation bundle, bundle.theorangebusiness.com, the orange business]
+aliases: [reputation bundle, bundle.theorangebusiness.com, the orange business, Review Automation]
 stack: [HTML/CSS/JS estático, PHP, Python, SQLite, Telnyx, Twilio]
 repo: /var/www/reputation-bundle-site (git, remoto github.com/argendarium/reputation-bundle-site)
 actualizado: 2026-09-25
@@ -40,8 +40,13 @@ CRM/scraper, agente de llamadas con IA y generación de contenido están constru
 - Decidir dominio propio vs. subdominio — por ahora se queda en `bundle.theorangebusiness.com` hasta que el proyecto genere ingresos.
 - Contactar asociaciones gremiales de Florida (FRSA, RCASF, Florida PHCC, Florida ACCPA) para enlaces de autoridad — objetivos identificados, pendiente que Bryan los contacte.
 - Confirmar si `leer.vendara.com.do` tiene un propósito real o se puede eliminar del todo.
+- Resolver cómo recibir USD sin LLC en EE.UU. (PayPal Business o Wise Business).
+- Contactar a los 13 prospectos reales de Kissimmee del tracker.
 
 ## Decisiones
+- 2026-08-29 - Pivote de Canadá bilingüe ($199 CAD) a Florida. Por qué: EE.UU. paga más fácil por servicios digitales y Bryan se muda allá.
+- 2026-08-29 - Concierge manual en vez de construir la plataforma de 8 fases. Por qué: ingresos inmediatos.
+- Mobile Text Alerts solo como canal secundario. Por qué: está hecho para suscriptores opt-in, no para outreach en frío.
 - 2026-09-15 - Migrar el caller-agent de Telnyx a Twilio. Por qué: 12+ días con el error 90046 de Telnyx sin resolver (ver [[project-twilio-migration]]).
 - Enlaces de autoridad Fase 4 cerrados entre Orange Creators y Reputation Bundle (footer cruzado bidireccional).
 
@@ -49,3 +54,12 @@ CRM/scraper, agente de llamadas con IA y generación de contenido están constru
 - Repo: https://github.com/argendarium/reputation-bundle-site
 - Producción (sitio): https://bundle.theorangebusiness.com
 - Producción (caller-agent): https://caller.theorangebusiness.com
+
+## Importado de otra sesión/máquina (2026-08-29, verificar si sigue vigente)
+Nota fusionada desde `vault-import.zip`; describe un modelo anterior (concierge, $149-249/mes) que parece haber evolucionado al modelo self-serve actual (LemonSqueezy, $199-299) descrito arriba. Se conserva sin borrar por si algo de esto sigue aplicando.
+
+- Modelo: Precio Founding Partner $149/mes fijo para los primeros 10 negocios, luego $249/mes. Incluye respuestas a reseñas con Claude, solicitudes de reseña manuales y reporte mensual.
+- Leads: Apollo.io y Outscraper (mejor para teléfono, rating y cantidad de reseñas).
+- Diseño: fondo charcoal, tarjetas color crema tipo ticket, naranja/ámbar de marca. Scoutie Sans (títulos), Public Sans (cuerpo), IBM Plex Mono (etiquetas).
+- Copy centrado en un momento concreto: el cliente que prometió una reseña y nunca la dejó.
+- Ruta mencionada en el VPS: `/opt/reputation-bundle/` (no coincide con las rutas `/var/www/...` de arriba — confirmar cuál es la vigente).
