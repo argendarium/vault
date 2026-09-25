@@ -11,7 +11,7 @@ LOG="$VAULT/.scripts/.sync.log"
 HOST="$(hostname 2>/dev/null || echo desconocido)"
 
 export GIT_TERMINAL_PROMPT=0
-export GIT_SSH_COMMAND="${GIT_SSH_COMMAND:-ssh -o BatchMode=yes -o ConnectTimeout=10}"
+[ -n "${GIT_SSH_COMMAND:-}" ] || [ -n "$(git -C "$VAULT" config core.sshCommand)" ] || export GIT_SSH_COMMAND="ssh -o BatchMode=yes -o ConnectTimeout=10"
 
 log()  { printf '%s [%s] %s\n' "$(date '+%F %T')" "$HOST" "$*" >> "$LOG"; }
 warn() { log "$*"; echo "AVISO vault: $*"; }
