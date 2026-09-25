@@ -27,6 +27,16 @@ Punto de entrada para cualquier agente. Leer esto primero, luego solo las notas 
 
 ## Proyectos activos
 <!-- Agregar a medida que se creen: - [[nombre-proyecto]] - una línea -->
+- [[atm-checklist]] — checklist ATM para técnicos de Triinet, en producción.
+- [[capitanjack]] — reservas de excursiones en barco, Punta Cana (JackCana Tours).
+- [[career-scout]] — Orange Radar, búsqueda de empleo personal de Bryan.
+- [[directory-ecosystem]] — directorio de contratistas, sin control de versiones.
+- [[gruas247]] — Titán Grúas RD (ex Grúas 24/7), cliente real Félix Drake.
+- [[karinabeauty]] — Karina Beauty Center, e-commerce nuevo sin desplegar.
+- [[minisites]] — mini-sitios de clientes de The Orange Creators.
+- [[quisqueyanetwork]] — Quisqueya News, agregador de noticias RD.
+- [[radar-productos]] — detección de productos ganadores COD, RD/MX/CO.
+- [[reputation-bundle]] — producto principal: gestión de reseñas para contratistas USA.
 
 ## Reglas clave
 - Convenciones de escritura: [[convenciones]]
