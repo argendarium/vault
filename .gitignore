@@ -1,0 +1,12 @@
+# Estado local de Obsidian (cambia constantemente, genera conflictos)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Log local del sync
+.scripts/.sync.log
