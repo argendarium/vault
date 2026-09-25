@@ -23,7 +23,7 @@ Venture nuevo y separado de Bryan: máquina para detectar productos ganadores pa
 - Secretos: `.env` (no versionado) — claves: `ANTHROPIC_API_KEY`, `APIFY_TOKEN`, `APIFY_MAX_CHARGE_USD`, `CLAUDE_MODEL`, `DATABASE_URL`, `MAX_NORMALIZE_PER_RUN`, `META_ACTOR_ID`, `META_COUNTRIES`, `META_KEYWORDS`, `META_RESULTS_LIMIT`, `TIKTOK_ACTOR_ID`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `USD_TO_DOP`, pesos del score (`W_*`).
 
 ## Estado
-MVP corriendo (setup 2026-09-17). Bloqueado en producción real hasta que Bryan cargue `APIFY_TOKEN` y `ANTHROPIC_API_KEY` reales en `.env` (ver [[project-radar-productos]] en memoria de sesión si existe con más detalle operativo).
+MVP corriendo (setup 2026-09-17). Bloqueado en producción real hasta que Bryan cargue `APIFY_TOKEN` y `ANTHROPIC_API_KEY` reales en `.env`.
 
 ## Pendientes
 - Enriquecimiento con AliExpress Affiliate API (búsqueda por imagen → proveedor y costo automático).

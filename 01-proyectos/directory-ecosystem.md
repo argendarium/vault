@@ -1,7 +1,7 @@
 ---
 tipo: proyecto
 estado: activo
-aliases: [directorio de contratistas, directory.vendara.com.do]
+aliases: [directorio de contratistas, directory.vendara.com.do, Unified Directory, Contractor Directory]
 stack: [Laravel 13, PHP, Filament 3, Python (scripts de import)]
 repo: sin repositorio git
 actualizado: 2026-09-25
@@ -9,7 +9,7 @@ actualizado: 2026-09-25
 # Directory Ecosystem (directorio de contratistas)
 
 ## Resumen
-Directorio de contratistas (por número de licencia) con backend Laravel + panel Filament y una API REST. Por el modelo `Prospect` y los scripts de importación en la raíz del backend, parece alimentarse de datos de licencias de contratistas — el mismo tipo de leads que usa Reputation Bundle ([[reputation-bundle]]) — para mostrarlos en un directorio público navegable.
+Directorio de contratistas (por número de licencia) con backend Laravel + panel Filament y una API REST. Por el modelo `Prospect` y los scripts de importación en la raíz del backend, parece alimentarse de datos de licencias de contratistas — el mismo tipo de leads que usa Reputation Bundle ([[reputation-bundle]]) — para mostrarlos en un directorio público navegable. Visión de producto (nombre interno "Unified Directory"): convertir cada perfil de contratista en una landing page completa que funcione como sitio web profesional, para justificar un precio de suscripción más alto. Relacionado con [[ecosistema-florida]].
 
 ## Arquitectura
 - Backend: Laravel 13 + Filament (`ProspectResource` en el panel admin). Modelos: `Prospect`, `Category`, `User`.
@@ -21,6 +21,7 @@ Directorio de contratistas (por número de licencia) con backend Laravel + panel
 - Ruta en esta máquina: `/var/www/directory-ecosystem`.
 - Secretos: `.env` y un backup `.env.bak-20260905011123` dentro de `backend/` (no versionados).
 - **Sin `.git` en el proyecto** — no hay control de versiones real hoy, todo el historial depende de esos backups manuales de `.env`.
+- Diseño planeado para las landing pages de contratista: fondo slate-950 con gradiente, acento ámbar `#fbbf24`, backdrop blur, botones rounded-xl, tarjetas con borde slate y fondo rgba. Deben sentirse nativas del directorio, no sitios white-label independientes.
 
 ## Estado
 Backend y panel admin funcionando con datos de prospectos ya cargados. Frontend y la capa de "services" (mencionados en la estructura de carpetas) aún no se construyeron. No tiene README ni CLAUDE.md propios — solo queda el README genérico de Laravel.

@@ -13,8 +13,8 @@ Un socio con capital importante invertirá. Es la oportunidad de salir del traba
 Inversión considerable, ganancias altas y replicable en otros países.
 
 ## Candidatos
-- [[capitan-jack]]: barcos en Punta Cana.
-- [[red-atm-canada]]: ya no es segura.
+- [[capitanjack]]: barcos en Punta Cana.
+- [[red-atm-canada]]: activa, en proceso de documentación.
 - Bloquera (fábrica de blocks), a partir de un proveedor chino de máquinas.
 - Red de pantallas publicitarias digitales (DOOH).
 - [[ecommerce-rd]] en paralelo.

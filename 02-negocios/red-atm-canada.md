@@ -1,13 +1,13 @@
 ---
 tipo: negocio
-estado: pausado
+estado: activo
 aliases: [red de cajeros Canadá, white-label ABM, negocio de ATMs]
 actualizado: 2026-09-25
 ---
 # Red de cajeros white-label en Canadá
 
 ## Resumen
-Red independiente de cajeros (ABM) white-label en Canadá, financiada por socios dominicanos.
+Red independiente de cajeros (ABM) white-label en Canadá, financiada por socios dominicanos. Bryan será empleado del negocio, no dueño.
 
 ## Modelo
 - Arranque con 10-15 máquinas; meta de 300 en 4-5 años.
@@ -17,7 +17,7 @@ Red independiente de cajeros (ABM) white-label en Canadá, financiada por socios
 - Operación directa, sin capa gerencial.
 
 ## Estado
-Desde septiembre 2026 ya no es una opción segura.
+Activa a septiembre 2026: en proceso, empezando la documentación. Bryan será empleado en este negocio.
 
 ## Decisiones
 - Canadá en lugar de EE.UU. El socio estadounidense solo aportaba acceso al sistema, no dinero.

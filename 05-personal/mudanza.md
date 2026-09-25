@@ -16,7 +16,7 @@ Mudarse a EE.UU. (Florida) o a Canadá en 2026, o 2027 a más tardar. La meta es
 - Negocios: [[lavanderia-florida]], [[reputation-bundle]], [[orange-creators]].
 
 ## Plan Canadá
-- Prioridad actual: conseguir empleo en Canadá y mudarse lo antes posible (ver [[aplicador-empleos]]).
+- Prioridad actual: conseguir empleo en Canadá y mudarse lo antes posible (ver [[career-scout]]).
 - Aprender francés.
 
 ## Estudios
@@ -27,4 +27,4 @@ Mudarse a EE.UU. (Florida) o a Canadá en 2026, o 2027 a más tardar. La meta es
 - [ ] Preparación física.
 - [ ] ASVAB y MEPS a medida que se acerque la mudanza.
 - [ ] Plan de traspaso del rol en el CBDN y del trabajo en [[triinet]].
-- [ ] Dejar [[capitan-jack]] operando con [[paomy]].
+- [ ] Dejar [[capitanjack]] operando con [[paomy]].

@@ -12,4 +12,4 @@ Ecosistema multiplataforma en Florida orientado a construcción y contratistas, 
 ## Componentes
 - LocalContractors.com: embudo de formalización de contratistas.
 - TheOrangeReport.com: medio hiperlocal.
-- Relacionados: [[directorio-contratistas]], [[reputation-bundle]], [[orange-creators]], [[lead-gen-florida]].
+- Relacionados: [[directory-ecosystem]], [[reputation-bundle]], [[orange-creators]], [[lead-gen-florida]].

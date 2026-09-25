@@ -9,7 +9,7 @@ actualizado: 2026-09-25
 # Karina Beauty Center
 
 ## Resumen
-Ecommerce (catálogo + checkout por WhatsApp) para el negocio de Karina, que vende extensiones de cabello indú de alta calidad. Cliente real de Bryan, similar en naturaleza a [[gruas247-felix-client]] (sitio para un tercero, no producto propio de Bryan). Categoría "E-commerce Luxury" según su propio sistema de diseño.
+Ecommerce (catálogo + checkout por WhatsApp) para el negocio de Karina, que vende extensiones de cabello indú de alta calidad. Cliente real de Bryan, similar en naturaleza a [[titan-gruas]] (sitio para un tercero, no producto propio de Bryan). Categoría "E-commerce Luxury" según su propio sistema de diseño.
 
 ## Arquitectura
 - Backend: Laravel 13 + panel admin Filament ^3.3. Sqlite como base de datos (mismo patrón que capitanjack).
@@ -29,7 +29,7 @@ Desplegado y funcionando en `karina.vendara.com.do` (subdominio temporal bajo ve
 ## Pendientes
 - Bryan/Karina: fotos reales de los productos (crítico — sin esto el catálogo se ve vacío), número de WhatsApp real, precios reales, Instagram real.
 - Definir si Karina quiere dominio propio (ej. karinabeautycenter.com) a futuro.
-- Verificar con un navegador humano normal si `/admin` carga bien en producción: al probar desde el navegador automatizado de esta sesión (Chrome vía CDP a través de Cloudflare) dio 403, pero el origen (nginx/Laravel) responde correctamente sin pasar por Cloudflare — login, sesión y redirects verificados por ese lado. Posible bloqueo de Cloudflare (Bot Fight Mode / WAF) hacia tráfico de navegador automatizado, similar al caso de [[career-scout-orange-radar]] con Cloudflare Access.
+- Verificar con un navegador humano normal si `/admin` carga bien en producción: al probar desde el navegador automatizado de esta sesión (Chrome vía CDP a través de Cloudflare) dio 403, pero el origen (nginx/Laravel) responde correctamente sin pasar por Cloudflare — login, sesión y redirects verificados por ese lado. Posible bloqueo de Cloudflare (Bot Fight Mode / WAF) hacia tráfico de navegador automatizado, similar al caso de [[career-scout]] con Cloudflare Access.
 
 ## Decisiones
 - 2026-09-25 - Catálogo + checkout por WhatsApp en vez de carrito con pago en línea. Por qué: estándar para negocios pequeños en RD, lanzamiento inmediato sin gestionar pasarela de pago.

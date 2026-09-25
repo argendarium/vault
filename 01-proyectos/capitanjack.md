@@ -1,7 +1,7 @@
 ---
 tipo: proyecto
 estado: activo
-aliases: [capitán jack, jackcana tours, cap.vendara.com.do]
+aliases: [capitán jack, jackcana tours, cap.vendara.com.do, capitan-jack, party boat punta cana]
 stack: [Laravel 13, PHP 8.3, Filament 3, Blade, Tailwind v4, Vite, SQLite]
 repo: /var/www/capitanjack (git local, sin remoto)
 actualizado: 2026-09-25
@@ -9,7 +9,14 @@ actualizado: 2026-09-25
 # Capitán Jack (JackCana Tours)
 
 ## Resumen
-Sitio de reservas para excursiones en barco (party boat) en Punta Cana, República Dominicana. Negocio real de turismo bajo `vendara.com.do`, sin relación con Reputation Bundle ni las demás propiedades de Bryan (ver [[bundle-origin-and-identity]] si existe).
+Sitio de reservas para excursiones en barco (party boat) en Punta Cana, República Dominicana. Negocio real de turismo bajo `vendara.com.do` con el que Bryan ya operaba, sin relación con Reputation Bundle ni las demás propiedades de Bryan. Ahora se relanza en grande dentro del [[portafolio-socio-inversor]]. [[paomy]] lo gestionará en RD cuando Bryan se mude — según Bryan, la mejor gerente que conoce.
+
+## Modelo de negocio
+- Barco de 40 pasajeros rentado (no comprado) para party boat y charters.
+- Venta B2B a tour operadores para sus paquetes; alianzas en Puerto Rico y Colombia; viajes de graduación y universidades de EE.UU. y Canadá.
+- Portada del sitio orientada a B2C (reserva directa). Ventas también por vendedores con comisión.
+- E-ticket como recuerdo emocional y correo posviaje para calificar la experiencia.
+- Serie de video corto #ExperienciaPuntaCana con turistas, tripulación, empresarios y comunidad.
 
 ## Arquitectura
 - Backend: Laravel 13.33 (PHP 8.3), panel admin Filament ^3.3.
@@ -37,6 +44,7 @@ Muy activo. Commits recientes: chárteres privados con agenda libre + libro mayo
 - `APP_DEBUG=true` → pasar a `false` antes de producción real.
 - SPF/DKIM/DMARC del dominio final en Cloudflare.
 - Respaldo automático programado de `database/database.sqlite`.
+- Montarlo en grande en los 6-8 meses antes de la mudanza de Bryan (ver [[mudanza]]).
 
 ## Decisiones
 - 2026-09-24 - Mantener `ARQUITECTURA.md` actualizado en el mismo commit que introduce el cambio. Por qué: es la fuente de verdad del estado real del código para cualquier agente que retome el proyecto.

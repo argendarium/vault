@@ -1,7 +1,7 @@
 ---
 tipo: proyecto
 estado: activo
-aliases: [orange radar, job scout, career.vendara.com.do]
+aliases: [orange radar, job scout, career.vendara.com.do, aplicador de empleos, aplicador de trabajos automatizado, búsqueda de empleo Canadá]
 stack: [Python, FastAPI, React, Vite]
 repo: /var/www/career-scout (git local, sin remoto)
 actualizado: 2026-09-25
@@ -9,7 +9,7 @@ actualizado: 2026-09-25
 # Career Scout (Orange Radar)
 
 ## Resumen
-Herramienta personal de Bryan para su búsqueda de trabajo — no es un producto de Reputation Bundle. Escanea vacantes en Canadá y Estados Unidos, las cruza contra su perfil profesional y arma un digest diario de las mejores oportunidades para aplicar. Diseño deliberadamente "asistido, no auto-apply": el sistema encuentra/filtra/prepara, Bryan aprueba el envío final, para evitar el riesgo de ban de cuenta por bots en LinkedIn/Indeed.
+Herramienta personal de Bryan para su búsqueda de trabajo — no es un producto de Reputation Bundle. Escanea vacantes en Canadá y Estados Unidos, las cruza contra su perfil profesional y arma un digest diario de las mejores oportunidades para aplicar. Diseño deliberadamente "asistido, no auto-apply": el sistema encuentra/filtra/prepara, Bryan aprueba el envío final, para evitar el riesgo de ban de cuenta por bots en LinkedIn/Indeed. Prioridad: conseguir trabajo en Canadá y mudarse lo antes posible (ver [[mudanza]]).
 
 ## Arquitectura
 - Backend: FastAPI (`backend/`), pensado para separarse en microservicios (scanner, matcher, notificador) a medida que crezca. Corre como servicio systemd `career-scout-backend` (activo).
@@ -32,6 +32,7 @@ Perfil cargado, scanner conectado a las 3 fuentes y motor de matching funcionand
 
 ## Decisiones
 - Sin decisiones fechadas registradas en el repo.
+- Prefiere una tarea programada que ayude con la búsqueda de empleo en lugar de un dashboard de calendario/correo. Por qué: revisa correo y calendario él mismo con frecuencia.
 
 ## Enlaces
 - Repo: /var/www/career-scout (git local, sin remoto)

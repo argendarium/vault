@@ -17,7 +17,7 @@ Ecosistema de gestión digital para el CBDN y, a largo plazo, implementación de
 - Docker para local y producción en VPS. Desarrollo local con Laravel Herd; despliegue con Laravel Forge.
 - Modelo de socios: empresas externas reciben API keys gratuitas otorgadas por el CBDN para dar beneficios a los bomberos. No es SaaS comercial.
 - Móvil: iBeacons Feasycom FSC-BP104D con `react-native-beacons-manager`, requisito desde el día uno.
-- Identidad visual institucional: rojo #C41E3A, dorado #A8871F, navy #1B2A4A. Syne + DM Sans en perfiles públicos.
+- Identidad visual institucional: rojo `#C41E3A`, dorado `#A8871F`, navy `#1B2A4A`. Syne + DM Sans en perfiles públicos.
 
 ## Módulos
 - Perfiles digitales con página pública de verificación por QR y expediente privado.

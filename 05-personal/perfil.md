@@ -8,7 +8,7 @@ actualizado: 2026-09-25
 - Bryan José Alberto. Emprendedor y profesional IT en República Dominicana.
 - Marca Cortex/Vendara (Quisqueya Network IRL) y The Orange Business.
 - Especialista en campo de cajeros GRG vía [[triinet]].
-- Bombero del CBDN (ver [[cbdn-contexto]]).
+- Bombero del CBDN, rango Sargento Mayor a septiembre 2026 (ver [[cbdn-contexto]]).
 - Más de 12 años en diseño web. Formación autodidacta más certificaciones.
 - Experiencia en periodismo y medios (contenido deportivo, alianzas de marca).
 - Trabajó en la Procuraduría General de la República Dominicana.

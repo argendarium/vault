@@ -7,6 +7,7 @@ actualizado: 2026-09-25
 # Triinet
 
 ## Rol
+- Relación laboral: empleado de Triinet, no dueño ni director de la empresa.
 - Especialista en sitio para cajeros GRG a través de Triinet: diagnóstico en campo, análisis de logs y coordinación de reparaciones. Lo hace él directamente, no delega.
 - Investigación técnica de transacciones fallidas, revisión de logs y evaluación de hardware para clientes como Banreservas.
 
