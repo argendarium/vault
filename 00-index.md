@@ -32,7 +32,7 @@ Punto de entrada para cualquier agente. Leer esto primero, luego solo las notas 
 - [[career-scout]] — Orange Radar, búsqueda de empleo personal de Bryan.
 - [[directory-ecosystem]] — directorio de contratistas, sin control de versiones.
 - [[gruas247]] — Titán Grúas RD (ex Grúas 24/7), cliente real Félix Drake.
-- [[karinabeauty]] — Karina Beauty Center, e-commerce nuevo sin desplegar.
+- [[karinabeauty]] — Karina Beauty Center, ecommerce (catálogo + checkout WhatsApp) de pelo indú, desplegado en karina.vendara.com.do.
 - [[minisites]] — mini-sitios de clientes de The Orange Creators.
 - [[quisqueyanetwork]] — Quisqueya News, agregador de noticias RD.
 - [[radar-productos]] — detección de productos ganadores COD, RD/MX/CO.
