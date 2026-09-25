@@ -18,7 +18,7 @@ Ecommerce (catálogo + checkout por WhatsApp) para el negocio de Karina, que ven
 - Rutas públicas: `/` (home), `/producto/{product}`, `/carrito`, `POST /pedido` (checkout).
 - Flujo de compra: catálogo público → carrito (localStorage) → formulario de datos → se crea un pedido en BD y se redirige a WhatsApp con el mensaje del pedido armado. Sin pago en línea (decisión explícita).
 - Panel admin (`/admin`) gestiona categorías, productos (fotos, precio, stock, destacado) y pedidos entrantes.
-- Sistema de diseño: paleta "Barbie" femenina (rosa `#E0218A` + rosa chicle `#FF6FB0` + dorado `#C99A2E`, tipografía Fredoka (headings, redondeada/juguetona) + Nunito Sans (body). Reemplazó un primer intento con paleta oscura + dorado "premium luxury" que no encajaba con la personalidad de Karina.
+- Sistema de diseño: paleta "Barbie" femenina (rosa `#D41F83` + rosa chicle `#FF6FB0` + dorado `#C99A2E`, tipografía Fredoka (headings, redondeada/juguetona) + Nunito Sans (body). Reemplazó un primer intento con paleta oscura + dorado "premium luxury" que no encajaba con la personalidad de Karina. Pasada de pulido con la skill ui-ux-pro-max (2026-09-25): se ajustó el rosa primario de `#E0218A` a `#D41F83` para que el texto blanco cumpla contraste WCAG AA (4.5:1), header sin degradado hacia el rosa chicle claro (bajaba el contraste del texto), botones dorados con texto oscuro en vez de rosa (antes 2.9:1, ilegible), focus rings visibles en botones/enlaces, franja de confianza (3 badges) bajo el hero, íconos SVG en vez de emojis.
 - Moneda: USD (`$`), no RD$ — Karina vive en Florida, no en RD. Precios de ejemplo actuales $110–$240 según largo.
 - Ruta en esta máquina: `/var/www/karinabeauty`.
 - `bootstrap/app.php` usa `trustProxies(at: '*')` porque el sitio está detrás de Cloudflare (necesario para URLs https correctas).
@@ -37,6 +37,7 @@ Desplegado y funcionando en `karina.vendara.com.do` (subdominio temporal bajo ve
 - 2026-09-25 - Stack Laravel + Filament (no PHP plano como gruas247). Por qué: necesita panel admin real para que Karina gestione productos/pedidos sin tocar código.
 - 2026-09-25 - Rediseño de paleta oscura/dorado a rosa "Barbie" + dorado, tipografía Fredoka/Nunito Sans. Por qué: Bryan describió a Karina como "bien femenina, bien coqueta, colores de Barbie" — la personalidad real de la clienta no encajaba con el look "luxury dark mode" inicial.
 - 2026-09-25 - Moneda cambiada de RD$ a USD. Por qué: Karina vive en Florida, no en República Dominicana (corrección de Bryan).
+- 2026-09-25 - Pasada de pulido UX con la skill ui-ux-pro-max a pedido de Bryan ("hazla más profesional"). Encontró contraste de texto insuficiente (WCAG) en varios lugares del rediseño rosa recién hecho y los corrigió sin perder el carácter "Barbie".
 
 ## Enlaces
 - Repo: git local, sin remoto configurado
