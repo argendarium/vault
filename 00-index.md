@@ -33,6 +33,7 @@ Bryan José Alberto: emprendedor y profesional IT en República Dominicana, espe
 - [[tierra-alta-dominicana]] y [[agrolink]].
 
 ## Proyectos de software
+- Producción: [[marcador]] (marcador.lol)
 - CBDN: [[fireid]], [[fire-monitor]], [[roip-cbdn]], [[memorial-911]]
 - Trabajo: [[triinet-os]], [[atm-tracker]], [[atm-checklist]], [[terminal-biometrica-banreservas]]
 - Aprendizaje: [[off-season-academy]]
